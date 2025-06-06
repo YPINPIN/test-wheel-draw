@@ -904,7 +904,7 @@ canvas {
   font-size: 18px;
   font-weight: bold;
   color: #fff;
-  background-color: #28a745;
+  background-color: #00701a;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -912,7 +912,7 @@ canvas {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   &:hover {
-    background-color: #218838;
+    background-color: #005f17;
   }
 }
 
@@ -999,13 +999,13 @@ canvas {
   font-size: 18px;
   font-weight: bold;
   color: #fff;
-  background-color: #007bff;
+  background-color: #424242;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: #0056b3;
+    background-color: #2e2e2e;
   }
 }
 
@@ -1060,14 +1060,14 @@ canvas {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background-color: #007bff;
+  background-color: #6a1b9a;
   border: none;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: #0056b3;
+    background-color: #58117f;
   }
   &:disabled {
     background-color: #ccc;
@@ -1149,14 +1149,14 @@ canvas {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #fb8c00;
+  background-color: #f57c00;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
   &:hover {
-    background-color: #f57c00;
+    background-color: #e65100;
   }
 }
 
@@ -1294,16 +1294,16 @@ canvas {
     transition: background-color 0.3s ease, transform 0.2s ease;
 
     &-edit {
-      background-color: #4caf50;
+      background-color: #0277bd;
       &:hover {
-        background-color: #43a047;
+        background-color: #01579b;
       }
     }
 
     &-delete {
-      background-color: #dc3545;
+      background-color: #b71c1c;
       &:hover {
-        background-color: #c82333;
+        background-color: #7f0000;
       }
     }
 
@@ -1314,6 +1314,10 @@ canvas {
       box-shadow: none;
     }
   }
+}
+
+button:active {
+  transform: scale(0.97);
 }
 
 /* 響應式設計 */
