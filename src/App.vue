@@ -653,8 +653,8 @@ const vFocus = {
 <template>
   <div class="app-container">
     <Header />
-    <audio ref="spinAudio" :src="spinSound"></audio>
-    <audio ref="endAudio" :src="endSound"></audio>
+    <audio ref="spinAudio" :src="spinSound" preload="auto"></audio>
+    <audio ref="endAudio" :src="endSound" preload="auto"></audio>
 
     <main class="wheel-wrapper">
       <div class="wheel-container">
