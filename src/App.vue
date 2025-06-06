@@ -908,7 +908,7 @@ canvas {
   font-size: 18px;
   font-weight: bold;
   color: #fff;
-  background-color: #00701a;
+  background-color: #6a1b9a;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -916,7 +916,7 @@ canvas {
   transition: background-color 0.3s ease, transform 0.2s ease;
 
   &:hover {
-    background-color: #005f17;
+    background-color: #58117f;
   }
 }
 
@@ -1064,14 +1064,14 @@ canvas {
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background-color: #6a1b9a;
+  background-color: #455a64;
   border: none;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: background-color 0.3s ease;
   &:hover {
-    background-color: #58117f;
+    background-color: #37474f;
   }
   &:disabled {
     background-color: #ccc;
@@ -1153,14 +1153,14 @@ canvas {
   font-size: 16px;
   font-weight: bold;
   color: #fff;
-  background-color: #f57c00;
+  background-color: #0277bd;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease, transform 0.2s ease;
   &:hover {
-    background-color: #e65100;
+    background-color: #01579b;
   }
 }
 
@@ -1298,9 +1298,9 @@ canvas {
     transition: background-color 0.3s ease, transform 0.2s ease;
 
     &-edit {
-      background-color: #0277bd;
+      background-color: #00701a;
       &:hover {
-        background-color: #01579b;
+        background-color: #005f17;
       }
     }
 
