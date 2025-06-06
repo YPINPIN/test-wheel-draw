@@ -7,7 +7,7 @@ import IconGithub from './icons/IconGithub.vue';
   <footer class="custom-footer">
     <Logo class="footer-wheel-logo" />
     <span>線上抽籤轉盤 © 2025 – </span>
-    <a href="https://github.com/YPINPIN" target="_blank">
+    <a href="https://ypinpin.github.io/test-wheel-draw/" target="_blank">
       <IconGithub /><span>YPINPIN</span>
     </a>
   </footer>
