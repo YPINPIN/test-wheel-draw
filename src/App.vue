@@ -10,10 +10,6 @@ import IconList from './components/icons/IconList.vue';
 import IconPen from './components/icons/IconPen.vue';
 import IconGroup from './components/icons/IconGroup.vue';
 
-// 音效文件
-const spinSound = ref(new Audio('/sounds/spin-sound.mp3'));
-const endSound = ref(new Audio('/sounds/win-sound.mp3'));
-
 // 排除的特殊顏色列表，這些顏色不會被用作獎品顏色，避免與轉盤的其他元素顏色衝突
 // 白色(#ffffff)、黑色(輪盤邊框 #000000)、紅色(指針色 #d93b3b)、深灰色(輪盤背景色 #333)、亮黃色(中獎色 #ffeb3b)
 const excludedColors = ['#ffffff', '#000000', '#d93b3b', '#333', '#ffeb3b'];
@@ -75,6 +71,10 @@ const defaultColors = [
 
 // 旋轉方向的布林值，true 代表順時針旋轉，false 代表逆時針旋轉。
 const rotateDirection = true;
+
+// 音效引用
+const spinSound = ref(null);
+const endSound = ref(null);
 
 /**
  * 獎品列表
@@ -649,6 +649,8 @@ const vFocus = {
 <template>
   <div class="app-container">
     <Header />
+    <audio ref="spinSound" src="/sounds/spin-sound.mp3"></audio>
+    <audio ref="endSound" src="/sounds/win-sound.mp3"></audio>
 
     <main class="wheel-wrapper">
       <div class="wheel-container">
